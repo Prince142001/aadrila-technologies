@@ -1,9 +1,16 @@
+@import 'tailwindcss';
+@plugin 'lightswind/plugin';
+
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 *,
 html,
 body {
   font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+}
+
+.btn-linear-gradient {
+  background: -webkit-linear-gradient(0deg, #cd6028 0%, #3e6eb4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

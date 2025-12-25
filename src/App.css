@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+@theme {
+  --color-btn-primary: #3e6eb4;
+
+  /* Gradient */
+  /* --gradient-text: linear-gradient(
+    90deg,
+    rgba(205, 96, 40, 1) 0%,
+    rgba(62, 110, 180, 1) 100%
+  ); */
+}
+
+@layer utilities {
+  .bg-gradient-text {
+    background-image: var(--gradient-text);
+  }
+}
