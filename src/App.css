@@ -2,7 +2,7 @@
 
 @theme {
   --color-btn-primary: #3e6eb4;
-
+  --font-raleway: "Raleway", sans-serif;
   /* Gradient */
   /* --gradient-text: linear-gradient(
     90deg,

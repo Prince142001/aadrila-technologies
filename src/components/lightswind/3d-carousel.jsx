@@ -60,9 +60,9 @@ const ThreeDCarousel = ({
   const getCardAnimationClass = (index) => {
     if (index === active) return "scale-100 opacity-100 z-20";
     if (index === (active + 1) % items.length)
-      return "translate-x-[40%] scale-95 opacity-60 z-10";
+      return "translate-x-[40%] scale-60 right-[200px]  blur-xs z-10";
     if (index === (active - 1 + items.length) % items.length)
-      return "translate-x-[-40%] scale-95 opacity-60 z-10";
+      return "translate-x-[-40%] scale-60 left-[200px]  blur-xs z-10";
     return "scale-90 opacity-0";
   };
 
