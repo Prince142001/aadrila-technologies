@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./components/Header/Navbar";
 import HeroSection from "./components/Hero/HeroSection";
 import IndustriesWeEmpower from "./components/IndustriesWeEmpower/IndustriesWeEmpower";
+import FeaturesAndBenefits from "./components/FeaturesAndBenefits/FeaturesAndBenefits";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <HeroSection />
       <IndustriesWeEmpower />
+      <FeaturesAndBenefits />
     </>
   );
 }

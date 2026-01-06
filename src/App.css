@@ -2,6 +2,8 @@
 
 @theme {
   --color-btn-primary: #3e6eb4;
+  --color-dark: #141219;
+  --color-gray: #696969;
   --font-raleway: "Raleway", sans-serif;
   /* Gradient */
   /* --gradient-text: linear-gradient(
