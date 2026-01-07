@@ -16,3 +16,20 @@ body {
 .linear-gradient {
   background: linear-gradient(90deg, #cd6028 0%, #3e6eb4 100%);
 }
+
+.embla {
+  position: relative;
+}
+
+.embla__viewport {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+  gap: 24px;
+}
+
+.embla__slide {
+  flex: 0 0 33.333%;
+}

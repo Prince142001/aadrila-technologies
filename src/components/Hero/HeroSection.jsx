@@ -44,7 +44,7 @@ function HeroSection() {
               prevention.
             </p>
             <div>
-              <ul className="flex gap-10 mt-5">
+              <ul className="flex gap-10 mt-8">
                 <li className="w-full overflow-hidden">
                   <a
                     href="#"

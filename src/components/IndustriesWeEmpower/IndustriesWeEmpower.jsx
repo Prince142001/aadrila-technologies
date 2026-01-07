@@ -12,12 +12,12 @@ import Group2Copy2 from "../../assets/Group-2-Copy-2.png";
 function IndustriesWeEmpower() {
   return (
     <section className="">
-      <div className="px-20 py-28 h-screen relative overflow-hidden">
+      <div className="px-20 h-[114vh] relative overflow-hidden">
         <div
-          className="absolute left-0 w-[45%] inset-0 bg-cover bg-center bg-no-repeat -z-10"
+          className="absolute left-0 w-190.25 h-190.25 inset-0 bg-contain bg-no-repeat -z-10"
           style={{ backgroundImage: `url(${CombinedShapeCopy})` }}
         />
-        <figure className="absolute right-[21%] w-[164.57765197753906px] -z-10">
+        <figure className="absolute top-24.25 right-[21%] w-[164.57765197753906px] -z-10">
           <img
             src={Group2}
             alt="Icon"
@@ -33,7 +33,7 @@ function IndustriesWeEmpower() {
           />
         </figure>
 
-        <header className="">
+        <header className="mt-22.5">
           <SectionHeading
             classname="text-2xl font-bold"
             title="AI-driven innovation for growth."
@@ -43,7 +43,7 @@ function IndustriesWeEmpower() {
           </h3>
         </header>
 
-        <div className="w-full absolute z-10 top-0 left-0 h-screen">
+        <div className="w-full absolute z-10 top-0 left-0 h-[114vh]">
           <ul>
             <li className="bg-white absolute right-20 top-24 shadow-[0px_0px_20px_0px_#0000001F] rounded-[20px] overflow-hidden">
               <Card
