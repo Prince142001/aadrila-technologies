@@ -23,21 +23,20 @@ function HeroSection() {
   ];
 
   return (
-    <section>
-      <div className="relative w-full flex items-center justify-center min-h-screen overflow-hidden">
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat -z-10"
-          style={{ backgroundImage: `url(${HeroBg})` }}
-        />
-        <div className="px-20 flex items-center justify-center">
+    <section className="relative h-[115vh]">
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat -z-10"
+        style={{ backgroundImage: `url(${HeroBg})` }}
+      />
+      <div className="pt-25 relative w-full flex items-center justify-center min-h-screen overflow-hidden">
+        <div className="px-20 w-full flex items-center justify-center">
           <div className="w-2/5">
             <SectionHeading
-              classname="text-5xl font-bold font-raleway leading-[68.25px]"
+              classname="text-5xl font-bold font-raleway leading-[68.25px] btn-linear-gradient"
               title="AI-Powered"
+              subtitleClassname="text-5xl font-bold font-raleway leading-[68.25px]"
+              subtitle="Document Automation & Fraud Detection"
             />
-            <h2 className="text-5xl font-bold font-raleway leading-[68.25px]">
-              Document Automation & Fraud Detection
-            </h2>
             <p className="mt-5 pr-4">
               Enhance security, accuracy, and efficiency with our cutting-edge
               AI solutions for seamless document processing and fraud
@@ -74,7 +73,14 @@ function HeroSection() {
           </div>
         </div>
       </div>
-      <div className="pb-20"></div>
+      <div
+        className="absolute bottom-0 w-full h-27.5 bg-[linear-gradient(180deg,
+      rgba(255,255,255,1)_24%,
+      rgba(255,255,255,0.82)_59%,
+      rgba(255,255,255,0.55)_85%,
+      rgba(255,255,255,0)_100%
+    )] backdrop-blur-lg"
+      ></div>
     </section>
   );
 }

@@ -23,7 +23,8 @@ const EmblaCarousel = ({ slides, options }) => {
         {/* Container */}
         <div className="embla__container flex gap-6">
           {slides.map((slide, index) => (
-            <div key={index} className="embla__slide flex-[0_0_33.333%]">
+            <div key={index} className="embla__slide flex-[0_0_32.155%]">
+              {/* <div key={index} className="embla__slide flex-[0_0_33.333%]"> */}
               {slide}
             </div>
           ))}

@@ -60,7 +60,7 @@ function Blogs() {
           <SectionHeading
             classname="text-5xl font-bold leading-15.25 font-raleway text-dark -tracking-[1px] text-center"
             title="Blogs"
-            subtitleClassname="text-[24px] font-normal btn-linear-gradient"
+            subtitleClassname="text-[24px] text-center font-normal btn-linear-gradient"
             subtitle="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard."
           />
         </header>
@@ -76,7 +76,6 @@ function Blogs() {
           />
         </div>
       </div>
-      <div className="pb-20"></div>
     </section>
   );
 }

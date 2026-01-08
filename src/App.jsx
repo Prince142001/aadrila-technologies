@@ -6,6 +6,7 @@ import IndustriesWeEmpower from "./components/IndustriesWeEmpower/IndustriesWeEm
 import FeaturesAndBenefits from "./components/FeaturesAndBenefits/FeaturesAndBenefits";
 import DocPilot from "./components/DocPilot/DocPilot";
 import Blogs from "./components/Blogs/Blogs";
+import ContactUs from "./components/ContactUs/ContactUs";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <FeaturesAndBenefits />
       <DocPilot />
       <Blogs />
+      <ContactUs />
     </>
   );
 }
